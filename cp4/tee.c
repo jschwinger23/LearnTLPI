@@ -5,7 +5,8 @@
 #define MAXSIZE 1024
 
 int main(int argc, char *argv[]) {
-    int fd, n, flags;
+    int fd, flags;
+    ssize_t n;
     mode_t mode;
     char buf[MAXSIZE];
 
